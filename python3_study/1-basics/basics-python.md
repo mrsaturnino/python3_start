@@ -20,5 +20,12 @@ name = "Andre"
 print(name)
 }
 ```
-** python não pode declarar variáveis sem uma atribuição. **
+**python não pode declarar variáveis sem uma atribuição.**
 
+## Input & Output
+
+## Operators
+
+### Logic
+
+### Math
