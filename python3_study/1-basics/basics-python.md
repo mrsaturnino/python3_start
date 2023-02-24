@@ -2,11 +2,11 @@
 
 ## Data types
 
-> blockquote
-str	=> Text
-int, float, complex => Numeric
-list, tuple, range	=> Sequence
-bool => Boolean
+>
+> - str	=> Text
+> - int, float, complex => Numeric
+> - list, tuple, range => Sequence
+> - bool => Boolean
 >
 
 ## Variables
