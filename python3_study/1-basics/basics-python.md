@@ -24,12 +24,22 @@ print(name)
 
 ## Input & Output
 
+<<<<<<< HEAD
 > input() 
 
 > print()
 
 ## Operators
+=======
+```
+{
+>>>>>>> 18d5b2180802267416101508f3d99e6f830d1b81
 
-### Logic
+print("hello, world!")
 
-### Math
+
+name = input("Enter you name here: ")
+
+}
+
+```
