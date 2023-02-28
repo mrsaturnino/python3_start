@@ -24,6 +24,10 @@ print(name)
 
 ## Input & Output
 
+> input() 
+
+> print()
+
 ## Operators
 
 ### Logic
