@@ -24,8 +24,14 @@ print(name)
 
 ## Input & Output
 
-## Operators
+```
+{
 
-### Logic
+print("hello, world!")
 
-### Math
+
+name = input("Enter you name here: ")
+
+}
+
+```
