@@ -8,12 +8,12 @@ from sys import getsizeof
 
 # Percorrendo um loop numa lista de forma normal.
 
-numerosLista = [x * 10 for x in range(10)]
+numerosLista = [x * 10 for x in range(100000)]
 print(type(numerosLista))  # exibindo o tipo, que é uma lista
 
-print(numerosLista)  # exibindo a lista
+#print(numerosLista)  # exibindo a lista
 
-print(getsizeof(numerosLista))
+print("O consumo sem o utilizar o generator é: " + str(getsizeof(numerosLista)))
 # Ao ser exibido, o getsizeof vai nos mostrar que a "numerosLista" é mais pesada a cada vez que aumentamos o "range()".
 
 
@@ -22,9 +22,10 @@ print('===========================')
 
 # Percorrendo um loop em uma lista utilizando o generator expressions
 # para utilizar o Generator Expressions, basta aplicar dessa forma, com parênteses.
-numeros = (x * 10 for x in range(10))
+numeros = (x * 10 for x in range(10000))
 
 print(type(numeros))
-print(list(numeros))
-print(getsizeof(numeros))
+#print(list(numeros))
+print("O consumo é: " + str(getsizeof(numeros)))
+
 # No caso do Generator Expressions, não perdemos performance ao estar claro que o tamanho não é alterado da mesma maneira que na "numerosLista".
