@@ -9,7 +9,7 @@ lista_letras = ['a', 'b', 'c', 'd']
 
 #convertendo em arrays:
 
-lista_numeros = ('i', [1, 2, 3, 4, 5])
+lista_numeros = ('i', [1, 2, 3, 4, 5]) #('i' é o tipo dos itens, [x, y] são os itens.)
 lista_letras = ('u', lista_letras)
 
 print(lista_numeros)
